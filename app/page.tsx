@@ -105,7 +105,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Meme Gallery Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-500">
         <div className="container mx-auto">
           <h2
@@ -117,7 +116,7 @@ export default function Home() {
             MEME GALLERY
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="scroll-animate">
               <img
                 src="/bull-trading-money-chart.png"
@@ -142,7 +141,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate">
+            <div className="scroll-animate scroll-animate-delay-3">
               <img
                 src="/bull-jail-prison-mug.png"
                 alt="Bull Prison"
@@ -150,7 +149,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate scroll-animate-delay-1">
+            <div className="scroll-animate">
               <img
                 src="/bull-army-warriors-spears.png"
                 alt="Bull Army"
@@ -158,7 +157,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate scroll-animate-delay-2">
+            <div className="scroll-animate scroll-animate-delay-1">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%202%2C%202025%2C%2004_23_10%20PM-TDtDRsZ5kEfI8k75ZTIBL4X3G9ebTy.png"
                 alt="Bull Friends Together"
@@ -166,7 +165,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate">
+            <div className="scroll-animate scroll-animate-delay-2">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%202%2C%202025%2C%2004_26_13%20PM-AYrFLIorv1zhqLzrs15fl4MZZU0nhX.png"
                 alt="Bull Market Success"
@@ -174,7 +173,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate scroll-animate-delay-1">
+            <div className="scroll-animate scroll-animate-delay-3">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%202%2C%202025%2C%2004_21_24%20PM-FYYRp9kcIstxglEQjoImuT5BecMh4I.png"
                 alt="Bull Trading Team"
@@ -182,7 +181,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate scroll-animate-delay-2">
+            <div className="scroll-animate">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%202%20Sep%202025%2C%2016.23.15-471XhFsG5s318Gp9t8p0UNRAgb0ZMT.png"
                 alt="Bull Executive"
@@ -190,7 +189,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate">
+            <div className="scroll-animate scroll-animate-delay-1">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%202%2C%202025%2C%2004_21_41%20PM-NsuCARwlynHdrdeHiMYwLGT4yd6BiO.png"
                 alt="Bull Resort Life"
@@ -198,7 +197,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate scroll-animate-delay-1">
+            <div className="scroll-animate scroll-animate-delay-2">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%202%2C%202025%2C%2004_22_38%20PM-XlNaWQ4MULqM8pPmd1IJYZo0fmzHdm.png"
                 alt="Bull Warehouse Operations"
@@ -206,7 +205,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="scroll-animate scroll-animate-delay-2">
+            <div className="scroll-animate scroll-animate-delay-3">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%202%2C%202025%2C%2004_23_47%20PM-KdwshYnBpboMsKoAkXInzzKwGIYHQR.png"
                 alt="Bull Mystic Powers"
