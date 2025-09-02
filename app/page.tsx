@@ -316,14 +316,14 @@ export default function Home() {
 
           <div className="flex justify-center gap-8 mb-12 scroll-animate scroll-animate-delay-1">
             <a
-              href="#"
+              href="https://t.me/basebullish"
               className="text-white text-2xl font-bold hover:text-blue-200 transition-colors duration-300 drop-shadow-lg"
             >
               telegram
             </a>
 
             <a
-              href="#"
+              href="https://x.com/basebull_"
               className="text-white text-2xl font-bold hover:text-blue-200 transition-colors duration-300 drop-shadow-lg"
             >
               twitter
