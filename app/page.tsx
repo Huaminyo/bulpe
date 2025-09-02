@@ -64,7 +64,7 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <span className="text-black text-3xl font-black">CA :</span>
                 <div className="text-black text-xl font-mono break-all font-bold">
-                  <div>coming soon</div>
+                  <div>0x267cd72422cf77a38a7cd8111f5ce7b5d17fbd6e</div>
                 </div>
               </div>
             </Card>
@@ -330,7 +330,7 @@ export default function Home() {
             </a>
 
             <a
-              href="#"
+              href="https://ape.store/base/0x267cd72422cf77a38a7cd8111f5ce7b5d17fbd6e"
               className="text-white text-2xl font-bold hover:text-blue-200 transition-colors duration-300 drop-shadow-lg"
             >
               ape.store
