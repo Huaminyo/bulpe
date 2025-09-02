@@ -1,6 +1,4 @@
 "use client"
-
-import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { useEffect } from "react"
 
@@ -305,54 +303,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* BASE BULL Section */}
+      {/* Community Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-500">
         <div className="container mx-auto text-center">
           <h2
-            className="text-5xl md:text-7xl font-black text-blue-300 mb-4 drop-shadow-lg scroll-animate"
+            className="text-5xl md:text-7xl font-black text-blue-300 mb-8 drop-shadow-lg scroll-animate"
             style={{
               textShadow: "2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white",
             }}
           >
-            BASE $BULL
+            COMMUNITY
           </h2>
 
-          <div className="flex justify-center gap-4 mb-12 scroll-animate scroll-animate-delay-2">
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-black hover:bg-blue-100 rounded-2xl p-6 w-16 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
+          <div className="flex justify-center gap-8 mb-12 scroll-animate scroll-animate-delay-1">
+            <a
+              href="#"
+              className="text-white text-2xl font-bold hover:text-blue-200 transition-colors duration-300 drop-shadow-lg"
             >
-              <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-              </svg>
-            </Button>
+              telegram
+            </a>
 
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-black hover:bg-blue-100 rounded-2xl p-6 w-16 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
+            <a
+              href="#"
+              className="text-white text-2xl font-bold hover:text-blue-200 transition-colors duration-300 drop-shadow-lg"
             >
-              <span className="text-2xl font-bold">X</span>
-            </Button>
+              twitter
+            </a>
 
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-black hover:bg-blue-100 rounded-2xl p-6 w-16 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
+            <a
+              href="#"
+              className="text-white text-2xl font-bold hover:text-blue-200 transition-colors duration-300 drop-shadow-lg"
             >
-              <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm5.568 8.16c-.169 1.858-.896 3.433-2.173 4.71-1.277 1.277-2.852 2.004-4.71 2.173-.38.035-.747.035-1.127 0-1.858-.169-3.433-.896-4.71-2.173-1.277-1.277-2.004-2.852-2.173-4.71-.035-.38-.035-.747 0-1.127z" />
-              </svg>
-            </Button>
-
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-black hover:bg-blue-100 rounded-2xl p-6 w-16 h-16 shadow-xl hover:shadow-2xl transition-all duration-300"
-            >
-              <span className="text-2xl font-bold">B</span>
-            </Button>
+              ape.store
+            </a>
           </div>
         </div>
       </section>
